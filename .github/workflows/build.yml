@@ -22,7 +22,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --noconsole --hidden-import=tkinterdnd2 pdf_tool_app.py
+        pyinstaller --onefile --noconsole --hidden-import=tkinterdnd2 pdf_app.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
